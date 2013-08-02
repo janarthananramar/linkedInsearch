@@ -5,7 +5,7 @@ Java based linkedInSearch tool
 
 ##What is this?
 
-jLinkedInSearch is a Java based tool to search peoples, companies, groups and jobs. jLinkedInSearch has been coded to work for both basic and premium account types and it is absolutely safe.
+jLinkedInSearch is a Java based tool to search peoples, companies, groups and jobs. jLinkedInSearch has been coded to work for both basic and premium account types and it is absolutely safe and simple piece of code, doesn't uses linkedInAPI, no need to generate APIKeys, just use your username/password of your account to run the code and get search results.
 
 ##Example usage
 
@@ -23,12 +23,12 @@ Import this project to eclipse. Set the lib files.
 
 Run -> Run As -> Java Application
 
-##Itegrating to your code
+##Integrating to your code
 
 
 ##Developed By
 
-Janarthanan Ramar, Sangeetha Jaganathan
+<a href="mailto:maxgilander@gmail.com">Janarthanan Ramar</a>, Sangeetha Jaganathan
 
 ##License
 
