@@ -381,7 +381,7 @@ public class ReaderLinkedin extends ActiveBatchBusinessService {
                         for (Object o : a) {
                           JSONObject url = (JSONObject) o;
                           urlV.setUrl(url.get("URL").toString());
-                          System.out.println("url--------------" + url.get("URL").toString());
+                          log.trace("url--------------" + url.get("URL").toString());
                           memberUrlResources.add(urlV);
                         }
 
@@ -491,6 +491,7 @@ public class ReaderLinkedin extends ActiveBatchBusinessService {
       Thread.sleep(3000);
       page = (HttpURLConnection) new URL(url).openConnection();
       page.setRequestProperty("Host", "www.linkedin.com");
+      page.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:16.0) Gecko/20100101 Firefox/16.0");
       page.setDoInput(true);
       if (!cook.equalsIgnoreCase(""))
         page.addRequestProperty("Cookie", cook);

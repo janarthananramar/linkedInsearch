@@ -1,4 +1,4 @@
-linkedInsearch
+jlinkedInsearch
 ==============
 
 Java based linkedInSearch tool
