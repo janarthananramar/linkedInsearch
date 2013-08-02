@@ -9,7 +9,19 @@ jLinkedInSearch is a Java based tool to search peoples, companies, groups and jo
 
 Example usage
 -------------
-blah, blah, blah....
+Use your account credentials here on line #40 and #41 on ReaderLinkedin.java
+  String userName = "USERNAME";
+  String password = "PASSWORD";
+
+Replace your search query here on line #46
+runSearch("Bhatia", "People");
+where Bhatia is your search keyword and People is your search type. Search type can be Company, Groups, Jobs
+
+Eclipse
+=======
+Import this project to eclipse. Set the lib files.
+
+Run -> Run As -> Java Application
 
 Itegrating to your code
 -----------------------
